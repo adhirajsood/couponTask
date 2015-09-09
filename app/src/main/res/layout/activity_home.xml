@@ -1,0 +1,17 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#fff"
+    android:id="@+id/layoutListChat"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"  tools:context=".Home">
+
+            <ListView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/listStores"
+                android:choiceMode="singleChoice"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:divider="#c6c6c6"
+                android:dividerHeight="10.0sp"/>
+
+</LinearLayout>
+
